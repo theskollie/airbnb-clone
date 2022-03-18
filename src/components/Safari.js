@@ -10,7 +10,7 @@ import Share from "../images/safari/share.png";
 import VacationHome from "../images/safari/vacation-home.jpg";
 import AirBnb from "../images/airbnb-logo.png";
 
-export default function Safari() {
+export default function Safari(props) {
   return (
     <div className="safari-container">
       <div className="safari--header">
@@ -21,7 +21,7 @@ export default function Safari() {
         </div>
         <img className="safari--nav" src={Nav} />
         <div className="safari--domain">
-          airbnb.com/experiences
+          {props.url}
           <img src={Refresh} className="safari--refresh" />
         </div>
         <div className="safari--corner">
