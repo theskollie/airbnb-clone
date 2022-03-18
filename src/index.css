@@ -84,3 +84,12 @@ nav {
 .card-container {
   display: flex;
 }
+
+.safari-container {
+  width: 800px; 
+}
+
+.safari--header {
+  height: 52px;
+  background-color: #363636;
+}

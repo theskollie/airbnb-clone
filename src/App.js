@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Katie from "./images/katie.png";
 import Wedding from "./images/wedding.png";
 import Bike from "./images/bike.png";
+import Safari from './components/Safari'
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
         price="50"
         />
       </div>
+      <Safari/>
     </div>
   );
 }
